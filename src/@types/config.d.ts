@@ -10,10 +10,6 @@ interface Config {
     copyright: string;
   };
   api: ApiConfig;
-  lang: {
-    allLangs: string[];
-    defaultLang: string;
-  };
   isDebug: boolean;
 }
 

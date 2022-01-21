@@ -2,10 +2,10 @@ import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 // import ScrollToTop from "@components/atoms/ScrollToTop";
-import routes from "./routes";
-import "./assets/scss/index.scss";
+import routes from "@routes/index";
+import "@assets/scss/index.scss";
 import { Provider } from "react-redux";
-import store from "./store";
+import store from "@store/index";
 
 render(
   <Provider store={store}>
