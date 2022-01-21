@@ -1,0 +1,13 @@
+{
+  "menu.about": "О проекте",
+  "menu.news": "Новости",
+  "menu.contacts": "Контакты",
+
+  "page.home": "Домашняя страница",
+  "page.about": "О проекте",
+
+  "signin": "Войти",
+  "signup": "Создать аккаунт",
+  "logout": "Выйти",
+  "profile": "Профиль"
+}

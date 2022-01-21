@@ -1,0 +1,10 @@
+.signup-page {
+  &__row {
+    margin-bottom: 8px;
+    display: flex;
+
+    .rs-input-group.rs-input-group-inside .rs-input-group-btn {
+      padding: 0 8px;
+    }
+  }
+}

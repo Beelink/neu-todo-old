@@ -1,0 +1,35 @@
+@import "@assets/scss/animations.scss";
+@import "@assets/scss/variables.scss";
+
+.loader {
+  &__lds-dual-ring {
+    padding: 8px;
+
+    &::after {
+      content: " ";
+      display: block;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      border-color: #fff transparent #fff transparent;
+      animation: loader $animation-duration linear infinite;
+    }
+  }
+
+  &--small &__lds-dual-ring {
+    padding: 4px;
+
+    &::after {
+      width: 28px;
+      height: 28px;
+      border-width: 2px;
+    }
+  }
+
+  &--dark &__lds-dual-ring {
+    &::after {
+      border-color: $text-color transparent $text-color transparent;
+    }
+  }
+}

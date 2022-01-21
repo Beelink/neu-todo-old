@@ -1,0 +1,13 @@
+{
+  "menu.about": "About",
+  "menu.news": "News",
+  "menu.contacts": "Contacts",
+
+  "page.home": "Home page",
+  "page.about": "About page",
+
+  "signin": "Sign in",
+  "signup": "Sign up",
+  "logout": "Sign out",
+  "profile": "Your profile"
+}

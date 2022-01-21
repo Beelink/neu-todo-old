@@ -1,0 +1,24 @@
+@import "@assets/scss/variables.scss";
+
+.image-loader {
+  background: $back-color-loading;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+
+    &--loaded {
+      display: block;
+    }
+  }
+
+  &--rounded {
+    border-radius: 50%;
+  }
+}

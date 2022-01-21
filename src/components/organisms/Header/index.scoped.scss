@@ -1,0 +1,41 @@
+@import "@assets/scss/variables";
+
+.header {
+  background: $back-color-light;
+
+  &__inner {
+    display: flex;
+    padding: 16px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+
+    @media (max-width: 600px) {
+      flex: 1;
+    }
+  }
+
+  &__nav {
+    flex: 1;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__actions {
+    margin-left: 16px;
+  }
+
+  &__mobile-drawer {
+    margin-left: 8px;
+    display: none;
+
+    @media (max-width: 600px) {
+      display: block;
+    }
+  }
+}
